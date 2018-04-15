@@ -9,7 +9,7 @@ def limiarizacao(img, limiar):
     return nova_imagem
 
 if __name__ == '__main__':
-    img = cv2.imread('../imagen s/img02-a.jpg', cv2.IMREAD_GRAYSCALE)
+    img = cv2.imread('../imagens/img02-a.jpg', cv2.IMREAD_GRAYSCALE)
 
     # exibir imagem
     cv2.imshow('Imagem Original', img)
