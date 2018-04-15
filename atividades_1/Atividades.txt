@@ -1,0 +1,24 @@
+
+
+
+1. Abrir uma imagem, converter toda ela para o negativo, e salvar a imagem resultante.
+
+2. Abrir uma imagem, alterar a cor dos pixels menores que 100 para 0, e maiores que 200 para 255.
+
+3. Abrir uma imagem e salvar em jpg e png.
+
+4. Abrir as duas imagens salvas no exercicio anterior e calcular a diferenca
+delas. 
+
+jpg    png    diferenca
+
+2 3 4  1 2 5  1 1 1 (calcula em modulo) 
+2 3 4  1 2 5  1 1 1
+2 2 2  1 2 2  1 0 0 
+
+5. Abrir uma imagem e salvar ela de ponta cabeça
+
+
+
+
+
