@@ -32,7 +32,7 @@ if __name__ == '__main__':
     # corrigir gama da imagem
     img_destino = gamma(img, 0.8)
 
-    # mostrar imagem limirizada
+    # mostrar imagem com gama corrigido
     cv2.imshow('Imagem com correcao de GAMMA', img_destino)
 
     # aguardar botao para continuar
