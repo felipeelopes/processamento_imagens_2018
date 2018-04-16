@@ -29,7 +29,7 @@ if __name__ == '__main__':
     # exibir imagem
     cv2.imshow('Imagem Original', img)
 
-    # limiarizar imagem
+    # corrigir gama da imagem
     img_destino = gamma(img, 0.8)
 
     # mostrar imagem limirizada
