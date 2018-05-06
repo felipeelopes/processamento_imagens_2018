@@ -1,0 +1,24 @@
+\begin{thebibliography}{1}
+
+\bibitem{ref:art2010}
+Kour. A.
+\newblock Face recognition using template matching.
+\newblock Abril 2014.
+
+\bibitem{ref:silva2006}
+Silva. A.
+\newblock Reconhecimento de faces via pca: Análise de desempenho.
+\newblock Ago 2006.
+
+\bibitem{ref:carvalho2004b}
+Fernando~J. Carvalho.
+\newblock Estudo, de metodologias para imagens de faces.
+\newblock Technical report, Universidade do Porto, 2004.
+
+\bibitem{ref:adriano2012}
+Marinho.~A. S.
+\newblock Uma nova versão de um sistema de detecção e reconhecimento de face
+  utilizando a transformada cosseno discreta.
+\newblock pages 30--31, Julho 2012.
+
+\end{thebibliography}

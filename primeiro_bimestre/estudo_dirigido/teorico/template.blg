@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: template.aux
+The style file: plain.bst
+Database file #1: referencias.bib
+Warning--string name "ufpb" is undefined
+--line 74 of file referencias.bib
+Warning--I didn't find a database entry for "ref:aman2015"
+Warning--I didn't find a database entry for "ref:slide01"
+Warning--empty journal in ref:art2010
+Warning--empty journal in ref:silva2006
+Warning--empty journal in ref:adriano2012
+You've used 4 entries,
+            2118 wiz_defined-function locations,
+            520 strings with 4438 characters,
+and the built_in function-call counts, 967 in all, are:
+= -- 94
+> -- 28
+< -- 1
++ -- 12
+- -- 8
+* -- 47
+:= -- 175
+add.period$ -- 12
+call.type$ -- 4
+change.case$ -- 17
+chr.to.int$ -- 0
+cite$ -- 7
+duplicate$ -- 46
+empty$ -- 79
+format.name$ -- 8
+if$ -- 199
+int.to.chr$ -- 0
+int.to.str$ -- 4
+missing$ -- 3
+newline$ -- 23
+num.names$ -- 8
+pop$ -- 21
+preamble$ -- 1
+purify$ -- 12
+quote$ -- 0
+skip$ -- 35
+stack$ -- 0
+substring$ -- 40
+swap$ -- 7
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 16
+warning$ -- 3
+while$ -- 10
+width$ -- 5
+write$ -- 41
+(There were 6 warnings)
