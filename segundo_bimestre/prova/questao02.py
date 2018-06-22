@@ -25,21 +25,30 @@ if __name__ == '__main__':
 
         for i in range(1, linhas-1):
             for j in range(1, colunas-1):
-                if img_copia.item(i, j, R) > 95 \
-                    and img_copia.item(i, j, G) > 40 \
-                    and img_copia.item(i, j, B) > 20 \
-                    and (img_copia.item(i, j, R) - img_copia.item(i, j, G)) > 15 \
-                    and img_copia.item(i, j, R) > img_copia.item(i, j, G) \
-                    and img_copia.item(i, j, R) > img_copia.item(i, j, B):
+                if frame.item(i, j, R) > 95 \
+                    and frame.item(i, j, G) > 40 \
+                    and frame.item(i, j, B) > 20 \
+                    and (frame.item(i, j, R) - frame.item(i, j, G)) > 15 \
+                    and frame.item(i, j, R) > frame.item(i, j, G) \
+                    and frame.item(i, j, R) > frame.item(i, j, B):
                         mascara.itemset((i , j), 255)
                 else:
                     mascara.itemset((i, j), 0)
 
         mascara = cv2.erode(mascara, mascara_morfologia_a, iterations=1)
-        mascara = cv2.dilate(mascara, mascara_morfologia_b, iterations=8)
+        mascara = cv2.dilate(mascara, mascara_morfologia_b, iterations=5)
         mascara = cv2.erode(mascara, mascara_morfologia_a, iterations=1)
 
-        cv2.imshow('frame', mascara)
+        for i in range(1, linhas-1):
+            for j in range(1, colunas-1):
+                for k in range(0, z):
+                    if mascara.item(i, j) != 0:
+                        img_copia.itemset((i, j, k), frame.item(i, j, k))
+                    else:
+                        img_copia.itemset((i, j, k), 0)
+
+        cv2.imshow('original', img_copia)
+        cv2.imshow('binario', mascara)
         #print(f'X:{linhas} Y:{colunas}')
         cv2.waitKey(30)
 
